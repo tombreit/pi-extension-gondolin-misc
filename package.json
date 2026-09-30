@@ -1,0 +1,16 @@
+{
+  "name": "pi-extension-gondolin-with-network",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gondolin micro-VM extension for pi with configurable network access and extra host mounts",
+  "type": "module",
+  "scripts": {
+    "test": "node --test config.test.ts"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "dependencies": {
+    "@earendil-works/gondolin": "^0.12.0"
+  }
+}
