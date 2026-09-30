@@ -12,5 +12,9 @@
   },
   "dependencies": {
     "@earendil-works/gondolin": "^0.12.0"
+  },
+  "allowScripts": {
+    "ssh2": false,
+    "cpu-features": false
   }
 }
