@@ -6,6 +6,14 @@ Based on the pi 0.99.1 example: <https://github.com/earendil-works/pi/tree/main/
 
 ## Installation
 
+### via Github
+
+```bash
+pi install https://github.com/tombreit/pi-extension-gondolin-misc
+```
+
+### via npm (local)
+
 ```bash
 cd /path/to/this/directory
 npm install --ignore-scripts
